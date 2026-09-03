@@ -1,0 +1,23 @@
+{
+  "name": "storybook-csf-meta-args-repro",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Minimal reproduction: CSF Next meta({ args }) loses captured args when an arg has a literal-union type",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "storybook": "storybook dev -p 6006"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@storybook/react-vite": "^10.5.7",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "storybook": "^10.5.7",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3"
+  }
+}
